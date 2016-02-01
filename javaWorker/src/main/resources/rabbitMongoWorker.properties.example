@@ -1,0 +1,12 @@
+rabbitMQ.host=127.0.0.1
+rabbitMQ.port=5672
+rabbitMQ.queue=Log
+rabbitMQ.userName=guest
+rabbitMQ.password=guest
+
+mongoDB.host=127.0.0.1
+mongoDB.port=27017
+mongoDB.db=hLog2
+mongoDB.collection=Log
+mongoDB.cappedCollection=capped.Log
+mongoDB.cappedCollection.size=104857600
